@@ -1,14 +1,14 @@
 package com.example.testsicred.views
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import androidx.recyclerview.widget.RecyclerView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.presentation.viewmodels.ListEventViewModel
 import com.example.testsicred.R
 import com.example.testsicred.extensions.createsErrorDialog
 import com.example.testsicred.extensions.createsLoadingDialog
+import kotlinx.android.synthetic.main.activity_list_events.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ListEventsActivity : AppCompatActivity() {
@@ -36,9 +36,8 @@ class ListEventsActivity : AppCompatActivity() {
 
     private fun initViews(){
         alertLoading = createsLoadingDialog()
-        val eventListRecyclerView: RecyclerView = findViewById(R.id.recycler_view_event_listing)
-        eventListRecyclerView.setHasFixedSize(true)
-        eventListRecyclerView.adapter = listEventsAdapter
+        recycler_view_event_listing.setHasFixedSize(true)
+        recycler_view_event_listing.adapter = listEventsAdapter
     }
 
     private fun inscribeObservers(){

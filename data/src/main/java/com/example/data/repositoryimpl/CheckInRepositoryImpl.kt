@@ -19,7 +19,7 @@ class CheckInRepositoryImpl(
         withContext(Dispatchers.IO) {
             try {
                 val response = checkInService.makeCheckIn(
-                    checkInRequestBody.toDataCheckInRequestBody()
+                    requestBody = checkInRequestBody.toDataCheckInRequestBody()
                 )
                 when (response.code()) {
                     201 -> Either.Success(Unit)

@@ -7,7 +7,6 @@ data class EventItem(
     val image: String,
     val latitude: String,
     val longitude: String,
-    val people: List<Any>,
     val price: String,
     val title: String,
     val contentToBeShare: String

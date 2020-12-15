@@ -7,3 +7,4 @@ interface CheckInRepository {
 
     suspend fun makeCheckIn(checkInRequestBody: CheckInRequestBody): Either<Unit, Exception>
 }
+
