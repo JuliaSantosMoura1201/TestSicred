@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TestSicred</string>
+
+    <!--ListEventActivity-->
+    <string name="txt_event_listing_title">Listagem de Eventos</string>
+    <string name="cd_image_event">Imagem do evento</string>
+
+    <!--Error Dialog-->
+    <string name="btn_close">Fechar</string>
+    <string name="txt_no_internet">Não foi possível se conectar a internet, tente novamente mais tarde</string>
+    <string name="txt_ops">Opss!</string>
+    <string name="cd_close">Fechar</string>
+    <string name="txt_something_went_wrong">Algo deu errado, tente novamente mais tarde!</string>
+
+    <!--DetailEventActivity-->
+    <string name="title_activity_detail_event">DetailEventActivity</string>
+    <string name="btn_check_in">Check In</string>
+    <string name="label_date">Data: %s</string>
+    <string name="label_price">Preço: R$ %s</string>
+    <string name="label_longitude">Long: %s</string>
+    <string name="label_latitude">Lat: %s</string>
+
+    <!--CheckInActivity-->
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Nome</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="txt_check_in_title">Insira seus dados</string>
+    <string name="success_check_in_message">Check In efetuado com sucesso!</string>
+    <string name="btn_share">Compartilhar</string>
+</resources>
